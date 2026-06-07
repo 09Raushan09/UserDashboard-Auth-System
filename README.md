@@ -69,28 +69,32 @@ git clone <your-repository-url>
 
 - Create .env files in both Frontend and Backend directories with the following keys: 
 
-** For Backend (/Backend/.env): **
-# MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_secret_key
-# CLOUDINARY_CLOUD_NAME=your_name
-# CLOUDINARY_API_KEY=your_key
-# CLOUDINARY_API_SECRET=your_secret
-# PORT=your_choice_port
+---
 
-** For Frontend (/Frontend/.env): **
-# VITE_BACKEND_URL=http://localhost:your_choice_port
+For Backend (/Backend/.env): 
+-MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key
+- CLOUDINARY_CLOUD_NAME=your_name
+- CLOUDINARY_API_KEY=your_key
+- CLOUDINARY_API_SECRET=your_secret
+- PORT=your_choice_port
+
+---
+
+ For Frontend (/Frontend/.env):
+- VITE_BACKEND_URL=http://localhost:your_choice_port
 
 ### 3. Install & Run
 
-# Backend: 
+- Backend: 
 ```bash
 cd Backend && npm install && npm run dev
 ``` 
 
-# Frontend: 
+- Frontend: 
 ```bash
 cd Frontend && npm install && npm run dev
 ```
 
-#### 👨‍💻 Author
-** Raushan Kumar **
+## 👨‍💻 Author
+**Raushan Kumar**
